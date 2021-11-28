@@ -59,11 +59,10 @@ class Simulation:
         for vehicle in self.vehicles:
             vehicle.step()
 
-        # if self.cycle % 100 == 0:
-        #     self.analytics.save()
+        if self.cycle % 100 == 0:
+            self.analytics.save()
 
         self.cycle += 1
-        # self.parking_database.randomise()
 
     def run(self):
         while True:
