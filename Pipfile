@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+pandas = "*"
+osmnx = "*"
+jupyter = "*"
+geopy = "*"
+pyproj = "*"
+uuid = "*"
+matplotlib = "*"
+matplotlib-inline = "*"
+shapely = "*"
+scikit-learn = "*"
+h5py = "*"
+pyarrow = "*"
+flask = "*"
+flask-cors = "*"
+seaborn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
